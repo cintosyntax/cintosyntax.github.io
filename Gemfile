@@ -15,6 +15,7 @@ gem 'middleman-sprockets', '>= 4.0.0'
 gem 'middleman-compass', '>= 4.0.0'
 gem 'middleman', '>= 4.0.0'
 gem 'middleman-livereload'
+gem 'middleman-deploy', '~> 1.0'
 
 gem 'font-awesome-middleman'
 gem "jquery-middleman"

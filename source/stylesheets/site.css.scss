@@ -21,6 +21,24 @@ $happy-monkey-font: 'Happy Monkey';
     background-size: cover;
 }
 
+.overlay-bg-container {
+  width: 75%;
+  text-align: center;
+  z-index: 1;
+  position: absolute;
+  margin-top: 200px;
+  color: white;
+}
+
+.hsContent {
+    max-width: 450px;
+    margin: -150px auto 0 auto;
+    display: table-cell;
+    vertical-align: middle;
+    color: #ebebeb;
+    padding: 0 8%;
+    text-align: center
+}
 .page-title {
   font-size: 40px;
   font-weight: 900;
@@ -38,6 +56,7 @@ $happy-monkey-font: 'Happy Monkey';
     text-align: center;
     font-size: 40px;
   }
+
   > .sub-title{
     text-align: center;
     margin-top: -40px;
@@ -86,8 +105,24 @@ section:nth-child(even) {
     height: 20px;
     font-size: 60px;
   }
+
+  padding-bottom: 50px;
 }
 
 .border-right {
   border-right: solid black;
+}
+
+// Footer
+.watermark {
+  float: left;
+  font-weight: 900;
+  font-size: 15px;
+  font-family: $bungee-hairline-font;
+}
+
+.back-top-button {
+  float: right;
+  font-weight: 900;
+  font-family: $bungee-hairline-font;
 }
