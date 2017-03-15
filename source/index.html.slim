@@ -1,10 +1,27 @@
 ---
-title: Welcome to Middleman
+title: Cintosyntax
 ---
 
-.welcome
-  .logo
-    == image_tag 'middleman-logo.svg'
-  h1 Middleman is Watching
-  p.doc
-    == link_to "Read Online Documentation", "http://middlemanapp.com/"
+div.parallax
+  nav.navbar.navbar-default.navbar-fixed-top
+    .container
+      .navbar-header
+        button.navbar-toggle.collapsed aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" type="button"
+          span.sr-only Toggle navigation
+          span.icon-bar
+          span.icon-bar
+          span.icon-bar
+
+        span.navbar-brand.page-title href="#"  CintoSyntax
+      #navbar.navbar-collapse.collapse
+        ul.nav.navbar-nav.navbar-right
+          li
+            a href="#about"  About
+          li
+            a href="#contact"  Contact
+
+section#about
+  == partial 'about'
+section#contact
+  == partial 'contact'
+

@@ -16,6 +16,6 @@ gem 'middleman-compass', '>= 4.0.0'
 gem 'middleman', '>= 4.0.0'
 gem 'middleman-livereload'
 
-
+gem 'font-awesome-middleman'
 gem "jquery-middleman"
 gem 'bootstrap-sass', '~> 3.1.1', require: false
