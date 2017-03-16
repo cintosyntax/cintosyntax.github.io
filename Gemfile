@@ -17,6 +17,5 @@ gem 'middleman', '>= 4.0.0'
 gem 'middleman-livereload'
 gem 'middleman-deploy', '~> 2.0.0.pre.alpha'
 
-gem 'font-awesome-middleman'
 gem "jquery-middleman"
 gem 'bootstrap-sass', '~> 3.1.1', require: false
