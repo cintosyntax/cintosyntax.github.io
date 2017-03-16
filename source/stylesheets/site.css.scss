@@ -76,7 +76,10 @@ section:nth-child(even) {
 }
 
 .bio-content {
-  font-size: 20px;
+  font-size: 17px;
+  > h3 {
+    margin-top: -5px;
+  }
 }
 
 // Contact
